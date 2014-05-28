@@ -14,12 +14,14 @@
 #ifndef SOURCE_PUGIXML_CPP
 #define SOURCE_PUGIXML_CPP
 
-#include "pugixml.hpp"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+
+#include <epicsExport.h>
+
+#include "pugixml.hpp"
 
 #ifdef PUGIXML_WCHAR_MODE
 #	include <wchar.h>

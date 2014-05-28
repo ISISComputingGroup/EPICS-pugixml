@@ -9,7 +9,7 @@ include $(TOP)/configure/CONFIG
 # build a support library
 
 LIBRARY_IOC += pugixml
-INC += pugixml.hpp
+INC += pugixml.hpp pugiconfig.hpp
 
 # xxxRecord.h will be created from xxxRecord.dbd
 #DBDINC += xxxRecord
